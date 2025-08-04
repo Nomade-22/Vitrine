@@ -1,0 +1,103 @@
+<!DOCTYPE html><html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nossa Galeria</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #0e0e0e;
+      color: #ffffff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.4rem;
+      margin-bottom: 40px;
+      font-weight: 600;
+      color: #e0e0e0;
+    }
+    .gallery {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    .card {
+      background-color: #1a1a1a;
+      border-radius: 20px;
+      padding: 30px 20px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card img {
+      max-width: 100%;
+      border-radius: 15px;
+      margin-bottom: 20px;
+    }
+    .card h2 {
+      font-size: 1.3rem;
+      font-weight: 500;
+      margin-bottom: 20px;
+      color: #f2f2f2;
+    }
+    .card a {
+      display: inline-block;
+      background-color: #ffffff;
+      color: #000000;
+      text-decoration: none;
+      padding: 12px 30px;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 1rem;
+      transition: background 0.3s;
+    }
+    .card a:hover {
+      background-color: #e0e0e0;
+    }
+  </style>
+</head>
+<body>
+  <h1>Nossa Galeria</h1>  <div class="gallery">
+    <div class="card">
+      <img src="https://nomade-22.github.io/corteecostura/banner-costura.jpg" alt="Curso de Costura" />
+      <h2>Curso de Costura Profissional</h2>
+      <a href="https://nomade-22.github.io/corteecostura/" target="_blank">Acessar com Desconto</a>
+    </div><div class="card">
+  <img src="https://nomade-22.github.io/mestres-do-algoritmo/mockup-algoritmo.jpg" alt="Mestres do Algoritmo" />
+  <h2>Mestres do Algoritmo 2.0</h2>
+  <a href="https://nomade-22.github.io/mestres-do-algoritmo/" target="_blank">Acessar com Desconto</a>
+</div>
+
+<div class="card">
+  <img src="https://nomade-22.github.io/PlanilhaH-H/mockup-clt.jpg" alt="Planilha CLT" />
+  <h2>Planilha de Custo CLT</h2>
+  <a href="https://nomade-22.github.io/PlanilhaH-H/" target="_blank">Acessar com Desconto</a>
+</div>
+
+<div class="card">
+  <img src="https://nomade-22.github.io/Planilhadeorcamento/mockup-orcamento.jpg" alt="Planilhas de Orçamento" />
+  <h2>Planilhas de Orçamento Profissional</h2>
+  <a href="https://nomade-22.github.io/Planilhadeorcamento/" target="_blank">Acessar com Desconto</a>
+</div>
+
+<div class="card">
+  <img src="https://nomade-22.github.io/queria-ser-vegan/banner-vegan.png" alt="E-book Vegan" />
+  <h2>E-book Queria Ser Vegan</h2>
+  <a href="https://go.hotmart.com/F101173511X?ap=2849" target="_blank">Acessar com Desconto</a>
+</div>
+
+<div class="card">
+  <img src="https://nomade-22.github.io/achadinhosvirais/mockup-achadinhos.jpg" alt="Achadinhos Virais" />
+  <h2>Achadinhos Virais Lucrativos</h2>
+  <a href="https://nomade-22.github.io/achadinhosvirais/" target="_blank">Acessar com Desconto</a>
+</div>
+
+  </div></body>
+</html>
